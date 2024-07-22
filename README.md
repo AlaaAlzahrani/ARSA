@@ -1,8 +1,14 @@
 # The Arabic Syntactic Analyzer (ARSA) 
 
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
+
+
 ## Overview 🔍
 
-The Arabic Syntactic Analyzer (ARSA) is a Natural Language Processing (NLP) tool designed for the analysis of syntactic features in Arabic written texts. It employs the [camel_parser](https://github.com/CAMeL-Lab/camel_tools) library to identify and measure 13 distinct syntactic indices, comprising 9 syntactic complexity indices and 4 syntactic fluency indices. 
+The Arabic Syntactic Analyzer (ARSA) is an open-source Natural Language Processing (NLP) tool designed for the analysis of syntactic features in Arabic written texts. It is based on python and employs the [camel_parser](https://github.com/CAMeL-Lab/camel_tools) library to identify and measure 13 distinct syntactic indices, comprising 9 syntactic complexity indices and 4 syntactic fluency indices. 
 
 The ARSA tool can be applied to study the following topics:
 
