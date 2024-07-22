@@ -1,11 +1,11 @@
 import os
 from pathlib import Path
-from ARSA.camel_tools.utils.charmap import CharMapper
-from ARSA.camel_parser.src.classes import TextParams
-from ARSA.camel_parser.src.conll_output import print_to_conll, save_to_file, text_tuples_to_string
-from ARSA.camel_parser.src.data_preparation import parse_text
-from ARSA.camel_parser.src.initialize_disambiguator.disambiguator_interface import get_disambiguator
-from ARSA.camel_parser.src.utils.model_downloader import get_model_name
+from camel_tools.utils.charmap import CharMapper
+from camel_parser.src.classes import TextParams
+from camel_parser.src.conll_output import print_to_conll, save_to_file, text_tuples_to_string
+from camel_parser.src.data_preparation import parse_text
+from camel_parser.src.initialize_disambiguator.disambiguator_interface import get_disambiguator
+from camel_parser.src.utils.model_downloader import get_model_name
 from docopt import docopt
 from pandas import read_csv
 from transformers.utils import logging

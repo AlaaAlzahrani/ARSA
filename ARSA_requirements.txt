@@ -2,3 +2,4 @@ nltk
 pathlib
 pandas
 huggingface_hub
+camel-tools
