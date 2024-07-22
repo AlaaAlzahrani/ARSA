@@ -47,6 +47,7 @@ pip install -r ARSA_requirements.txt
 
 ```bash
 pip install --upgrade huggingface_hub
+pip install camel-tools
 ```
 
 3. **Analyze your texts using the ARSA tool**
