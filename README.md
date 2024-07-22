@@ -45,12 +45,17 @@ cd ..
 pip install -r ARSA_requirements.txt
 ```
 
+```bash
+pip install --upgrade huggingface_hub
+```
+
 3. **Analyze your texts using the ARSA tool**
 
 Run the following command:
 
 ```bash
-python ARSA.get_analysis.py
+cd path/to/ARSA/directory # change the working dircotry to the ARSA repository folder
+python get_analysis.py
 ```
 
 The command will prompt you to enter the input folder:
@@ -67,7 +72,8 @@ Please select the output folder: <write-the-output-folder-name-here>
 
 ## Example
 ```bash
-python ARSA.get_analysis.py
+cd path/to/ARSA/directory # change the working dircotry to the ARSA repository folder
+python get_analysis.py
 Please select the text file(s) folder: example/corpus
 Please select the output folder: example/results
 ```
