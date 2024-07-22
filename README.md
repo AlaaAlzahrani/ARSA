@@ -1,7 +1,22 @@
-# The Arabic Syntactic Analyzer (ARSA) 
+---
+title: "README file"
+output:
+  html_document:
+    theme: simplex
+    css: styles.css
+---
+
+# [The Arabic Syntactic Analyzer (ARSA)](https://github.com/AlaaAlzahrani/ARSA)
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
+## Table of Contents
+- [Overview](#overview)
+- [Notable Features](#notable-features)
+- [Installation and Setup for Windows users](#installation-and-setup-for-windows-users)
+- [Installation and Setup for Mac/Linux Users](#installation-and-setup-for-maclinux-users)
 
 
 ## Overview 🔍
@@ -14,7 +29,7 @@ The ARSA tool can be applied to study the following topics:
 - *Text readability*: investigating the linguistic accessibility of Arabic texts
 - *Second language acquisition*: analyzing syntactic development in Arabic learners' writing
 
-## Key Features 
+## Notable Features 
 
 - **Automatic Analysis**: automatically evaluates 13 syntactic indices
 - **Batch Processing**: capable of analyzing multiple text files simultaneously 
@@ -34,8 +49,7 @@ The ARSA tool can be applied to study the following topics:
 4. **Follow the step-by-step instructions within the notebook**
 
 
-> *NOTE*: You can run the notebook on Mac/Linux devices. 
-
+> *NOTE*: You can run the notebook on Mac and Linux devices. 
 
 
 ## Installation and Setup for Mac/Linux users 🐧🍎
@@ -88,13 +102,13 @@ Please select the output folder: <write-the-output-folder-name-here>
 
 4. Example
 ```bash
-cd path/to/ARSA/directory # change the working dircotry to the ARSA repository folder
+cd D:/my_projects/ARSA 
 python get_analysis.py
 Please select the text file(s) folder: example/corpus
 Please select the output folder: example/results
 ```
 
-> *NOTE*: Local installation is currently unsupported on Windows because some dependencies of the camel parser library are incompatible with Windows.
+> *NOTE*: This local installation method is currently unsupported on Windows because some dependencies of the camel parser library are incompatible with Windows.
 
 
 ## Citation
