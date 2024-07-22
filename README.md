@@ -29,7 +29,7 @@ The ARSA tool can be applied to study the following topics:
 - **User-Friendly Interface**: implemented as an interactive command-line interface (CLI) for ease of use 
 - **Dual Functionality**: operates as both a local application and a cloud-based tool via Google Colab 
 
-## Installation and Setup for Windows users 🖥️
+## Installation and Setup for Windows users
 
 1. **Download the [ARSA_notebook.ipynb](https://github.com/AlaaAlzahrani/ARSA/blob/master/ARSA_notebook.ipynb) from this repository**
 
@@ -45,7 +45,7 @@ The ARSA tool can be applied to study the following topics:
 > You can run the notebook on Mac and Linux devices. 
 
 
-## Installation and Setup for Mac/Linux users 🐧🍎
+## Installation and Setup for Mac/Linux users
 
 1. **Clone this repository:**
 ```bash
