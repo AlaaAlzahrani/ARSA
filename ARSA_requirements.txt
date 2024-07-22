@@ -1,0 +1,4 @@
+nltk
+pathlib
+pandas
+huggingface_hub
