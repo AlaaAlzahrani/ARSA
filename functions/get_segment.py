@@ -3,7 +3,7 @@ import nltk
 nltk.download('punkt')
 from pathlib import Path
 import os
-from functions.general_utils import create_subfolder
+from ARSA.functions.general_utils import create_subfolder
 
 # Helper function
 def segment_and_save_text(input_data, temp_dir):

@@ -1,9 +1,9 @@
-from functions.measure_utils import get_file_name
+from ARSA.functions.measure_utils import get_file_name
 import pandas as pd
 from pathlib import Path
 from io import StringIO # to make a string into a df
 import os
-from functions.calc_measures import (
+from ARSA.functions.calc_measures import (
     # count measures
     get_word_count, get_verb_count,
     get_object_count, get_sentence_count,

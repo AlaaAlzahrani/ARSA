@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 from pathlib import Path
-from functions.general_utils import create_temp_directory, create_subfolder
+from ARSA.functions.general_utils import create_temp_directory, create_subfolder
 
 def format_and_save_text(file_paths, temp_dir):
     

@@ -1,8 +1,8 @@
-from functions.general_utils import create_temp_directory
-from functions.get_segment import segmenting
-from camel_parser.handle_multiple_texts import parsing_texts
-from functions.get_format import formatting
-from functions.get_measures import measures
+from ARSA.functions.general_utils import create_temp_directory
+from ARSA.functions.get_segment import segmenting
+from ARSA.camel_parser.handle_multiple_texts import parsing_texts
+from ARSA.functions.get_format import formatting
+from ARSA.functions.get_measures import measures
 from pathlib import Path
 import shutil
 

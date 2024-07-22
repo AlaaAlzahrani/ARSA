@@ -33,7 +33,7 @@ git clone https://github.com/AlaaAlzahrani/ARSA.gitL
 2. **Install the required packages:**
 
 ```bash
-cd ARSA_tool\camel_parser
+cd ARSA/camel_parser
 pip install -r requirements.txt
 python download_models.py
 camel_data -i morphology-db-msa-s31
@@ -41,7 +41,7 @@ camel_data -i disambig-bert-unfactored-msa
 ```
 
 ```bash
-cd ARSA_tool
+cd ..
 pip install -r ARSA_requirements.txt
 ```
 
@@ -50,7 +50,7 @@ pip install -r ARSA_requirements.txt
 Run the following command:
 
 ```bash
-python get_analysis.py
+python ARSA.get_analysis.py
 ```
 
 The command will prompt you to enter the input folder:
@@ -67,7 +67,7 @@ Please select the output folder: <write-the-output-folder-name-here>
 
 ## Example
 ```bash
-python get_analysis.py
+python ARSA.get_analysis.py
 Please select the text file(s) folder: example/corpus
 Please select the output folder: example/results
 ```

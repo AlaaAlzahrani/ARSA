@@ -1,5 +1,5 @@
 
-from functions.measure_utils import (
+from ARSA.functions.measure_utils import (
     get_total_word_count, get_total_sentences, 
     get_total_verb_count, get_total_passive_verb_count, 
     get_total_kana_sisters_verb_count, get_total_object_count,
