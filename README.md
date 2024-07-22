@@ -27,7 +27,7 @@ The ARSA tool can be applied to study the following topics:
 
 1. **Clone this repository:**
 ```bash
-git clone <https://github.com/AlaaAlzahrani/ARSA.gitL>
+git clone https://github.com/AlaaAlzahrani/ARSA.gitL
 ```
 
 2. **Install the required packages:**
